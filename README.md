@@ -1,2 +1,2 @@
-# java-algorithms
+# Java Algorithms
 play with algorithms
