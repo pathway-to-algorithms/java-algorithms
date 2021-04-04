@@ -24,7 +24,7 @@ public class L26_RemoveDuplicates {
   * 校验：
       -	数字长度
       - 排序后的数组
-  * 中间变量：双指针，slow，fast
+  * 中间变量：双指针，slow(指向下一个即将被替换值的位置)，fast
   * 遍历：for loop
   * 操作：
       - 当 nums[slow] = nums[fast], fast++
@@ -41,6 +41,6 @@ public class L26_RemoveDuplicates {
         slow++;
       }
     }
-    return nums.length;
+    return slow + 1;
   }
 }
