@@ -14,14 +14,15 @@ public class L2_AddTwoNumber {
   /*
   * Coding
   * 校验：
-      -	list node 规范
-  * 中间变量：双指针，curr 表示当前链表头结点，prev 表示反转链表头节点
+      -	数字长度
+      - 边界精度不过
+  * 中间变量：
   * 遍历：while（迭代）
   * 操作：
-      - 将 curr 的节点，依次拼接到 prev 之前
+      -
   * 复杂度分析：
-  * 	- 时间复杂度：O(n)
-  * 	- 空间复杂度：O(1)
+  * 	- 时间复杂度：O(m+n)
+  * 	- 空间复杂度：O(m+n)
   */
   public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     long num1 = linkedListToLong(l1);
